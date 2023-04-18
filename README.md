@@ -48,6 +48,7 @@ git clone https://github.com/borenstein-lab/drug_microbiome.git
 
 **Scripts and files overview**    
 These scripts allow for replicating the results presented in the paper. 
+Please see more specific instructions within each folder.
 The scripts and files included in this repository are detailed below according to their role in the manuscript:  
 
 1 - data_preprocessing  
