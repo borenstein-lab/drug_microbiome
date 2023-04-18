@@ -38,28 +38,37 @@ dplyr_1.0.8
 tidymodels_0.1.4         
 ggplot2_3.3.5          
 
-** Installation guide ** 
+** Installation guide **    
 
-Download repo using -  
-'git clone https://github.com/borenstein-lab/drug_microbiome.git' 
+Download repo using: 
+````
+git clone https://github.com/borenstein-lab/drug_microbiome.git 
+````
+ 
 
-**Scripts and files overview ** 
-These script allow to replicate the results presented in the paper. 
+**Scripts and files overview**    
+These scripts allow for replicating the results presented in the paper. 
 The scripts and files included in this repository are detailed below according to their role in the manuscript:  
 
-1-
-get_drug_descriptors.ipynb - Calculates physo-chemical drug desrcriptors from SMILES  
-get_tc_distance.ipynb - Calculates Tanimoto similarity matrix between drug from SMILES  
+1 - data_preprocessing  
+- get_drug_descriptors.ipynb - Calculates physio-chemical drug descriptors from SMILES   
+- get_tc_distance.ipynb - Calculates Tanimoto similarity matrix between drugs from SMILES  
 
-2 - 
-rf_model.R - Estimate RF model praformenece in predicting drug impact across three scanrios - new interactions, new drugs and new microbes.
-lasso_model.R - Conduct the analysis above using lasso logistic regression
-ridge_model
-elastic_net_model.R
-svm_rbf_model.R
-svm_poly_model.R
-drug_loo_tc_cutoff_selection.R
+2 - model_training_and_validation  
+- rf_model.R - Estimate RF model performance in predicting drug impact across three scenarios - new interactions, new drugs, and new microbes.  
+- lasso_model.R - Conduct the analysis above using lasso logistic regression  
+- ridge_model. R - Analyze using ridge logistic regression  
+- elastic_net_model.R - Analyze using ENT regression  
+- svm_rbf_model.R - Analyze using the SVM RBF model  
+- svm_poly_model.R - Analyze using the SVM poly model  
+- drug_loo_tc_cutoff_selection.R - leave-one-drug-out while excluding all compounds that are similar to the predicted drug using several TC similarity thresholds    
 
+3 - model_vip 
+ - rf_vip.R - Calculate variable importance for the RF model  
+  
+4 - large_scale_drug_impact
+- predict_on_new_drug_microbiome_interactions.R - predict the impact of drugs on multiple drug-microbe combinations   
+  
 
 tanimoto_distance_matrix_wide.rds
 
