@@ -71,9 +71,6 @@ The scripts and files included in this repository are detailed below according t
 - predict_on_new_drug_microbiome_interactions.R - predict the impact of drugs on multiple drug-microbe combinations   
   
 
-tanimoto_distance_matrix_wide.rds
-
-
 
 
 
