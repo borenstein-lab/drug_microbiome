@@ -1,5 +1,5 @@
 Welcome!
 Data and code for paper "A data-driven approach for predicting the impact of drugs on the human microbiome"
 
-Abstract
+#Abstract
 Many medications can negatively impact the bacteria residing in our gut, depleting beneficial species, and causing adverse effects. To guide personalized pharmaceutical treatment, a comprehensive understanding of the impact of various drugs on the gut microbiome is needed, yet, to date, experimentally challenging to obtain. Towards this end, we developed a data-driven approach, integrating information about the chemical properties of each drug and the genomic content of each microbe, to systematically predict drug-microbiome interactions. We show that this framework successfully predicts outcomes of in-vitro pairwise drug-microbe experiments, as well as drug-induced microbiome dysbiosis in both animal models and clinical trials. Applying this methodology, we systematically map a large array of interactions between pharmaceuticals and human gut bacteria and demonstrate that medications’ anti-microbial properties are tightly linked to their adverse effects. This computational framework has the potential to unlock the development of personalized medicine and microbiome-based therapeutic approaches, improving outcomes and minimizing side effects. 
