@@ -5,3 +5,4 @@
 5. svm_rbf_model.R - Analyze using the SVM RBF model
 6. svm_poly_model.R - Analyze using the SVM poly model
 7. drug_loo_tc_cutoff_selection.R - leave-one-drug-out while excluding all compounds that are similar to the predicted drug using several TC similarity thresholds
+8. tanimoto_distance_matrix_wide - calculated similarity matrix between all drugs
