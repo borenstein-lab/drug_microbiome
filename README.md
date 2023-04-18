@@ -3,7 +3,7 @@
 **Welcome!**  
 
 This repository contains the analysis code for:   
-"A data-driven approach for predicting the impact of drugs on the human microbiome" by Y.M Algavi and E. Borenstein
+"A data-driven approach for predicting the impact of drugs on the human microbiome" by Y.M Algavi and E. Borenstein  
 doi: https://doi.org/10.1101/2022.10.08.510500 
 
 **Abstract**  
@@ -38,7 +38,7 @@ dplyr_1.0.8
 tidymodels_0.1.4         
 ggplot2_3.3.5          
 
-** Installation guide **    
+**Installation guide**    
 
 Download repo using: 
 ````
